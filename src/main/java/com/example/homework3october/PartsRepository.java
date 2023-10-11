@@ -21,12 +21,6 @@ public class PartsRepository {
         parts.add(part);
     }
 
-    /**
-    public void deletePart(Part part){
-        parts.remove(part);
-    }
-     **/
-
     public void deletePart(Part part) {
         System.out.println("Before deletion: " + parts);
 
