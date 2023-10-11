@@ -26,7 +26,7 @@ public class PartsServerIntegrationTest {
                 .perform(get("/api/parts"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                .andExpect(content().string(containsString("Test1")));
+                .andExpect(content().string(containsString("Henrik")));
     }
 
 
